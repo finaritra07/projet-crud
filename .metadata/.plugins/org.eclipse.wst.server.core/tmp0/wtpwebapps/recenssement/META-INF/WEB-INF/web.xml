@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	
+
+
+	
+<servlet>
+	<servlet-name>Login</servlet-name>
+	<servlet-class>servlet.login</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Login</servlet-name>
+	<url-pattern>/LOGIN</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>Acceuil</servlet-name>
+	<servlet-class>servlet.Acceuil</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Acceuil</servlet-name>
+	<url-pattern>/ACCEUIL</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AjoutPopu</servlet-name>
+	<servlet-class>servlet.AjoutPopu</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>AjoutPopu</servlet-name>
+	<url-pattern>/AJOUTPOPU</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Detail</servlet-name>
+	<servlet-class>servlet.Detail</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Detail</servlet-name>
+	<url-pattern>/DETAIL</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>Modification</servlet-name>
+	<servlet-class>servlet.Modification</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Modification</servlet-name>
+	<url-pattern>/MODIFICATION</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+
+<jsp-config>
+	<jsp-property-group>
+		<url-pattern>*.jsp</url-pattern>
+		<include-prelude>/WEB-INF/taglib.jsp</include-prelude>
+	</jsp-property-group>
+</jsp-config>
+
+</web-app>

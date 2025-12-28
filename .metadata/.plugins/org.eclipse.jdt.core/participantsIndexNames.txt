@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+D:\projets\projets\java\recenssement de CIN(stage)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2462899716.index
+\recenssement\src\main\java
+D:\projets\projets\java\recenssement de CIN(stage)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\318205375.index
+\recenssement\src\main\java

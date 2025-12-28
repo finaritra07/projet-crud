@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\projets\projets\java\recenssement de CIN(stage)\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3058810101.index
+3592429428.index
+233329211.index
+904972143.index
+3364746866.index
+2029043962.index
